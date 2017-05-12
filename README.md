@@ -4,12 +4,12 @@ Tong has decided to code every day from May to August, 2017. All resources, cove
 
 ## Contents
 
-- [`iam_handwriting_stats/`](iam_handwriting_stats/): use Python 3 to produce statistics about the IAM Online Handwriting Dataset.
+- [`iam_stats/`](iam_stats/): use Python 3 to produce statistics about the IAM Online Handwriting Dataset.
 
 ## Commit Timeline
 
-- May 11th: repository init
-- May 12th: IAM Handwriting Dataset Statistics
+- May 12th: repository init
+- May 13th: IAM Handwriting Dataset Statistics
 
 ## Contact
 
