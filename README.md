@@ -2,9 +2,14 @@
 
 Tong has decided to code every day from May to August, 2017. All resources, covering various subjects, will be committed to this repo, and hope you could find some of them useful.
 
+## Contents
+
+- [`iam_handwriting_stats/`](iam_handwriting_stats/): use Python 3 to produce statistics about the IAM Online Handwriting Dataset.
+
 ## Commit Timeline
 
 - May 11th: repository init
+- May 12th: IAM Handwriting Dataset Statistics
 
 ## Contact
 
