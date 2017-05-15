@@ -11,6 +11,7 @@ Tong has decided to code every day from May to August, 2017. All resources, cove
 
 - May 12th: repository init
 - May 13th: IAM Handwriting Dataset Statistics
+- May 14th: complete POJ problem [\#1021](poj/1021.cpp)
 
 ## Contact
 
