@@ -1,2 +1,6 @@
 # mac os finder
 .DS_Store
+
+# I/O files and default executable
+a.in
+a.out

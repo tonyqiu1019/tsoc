@@ -5,6 +5,7 @@ Tong has decided to code every day from May to August, 2017. All resources, cove
 ## Contents
 
 - [`iam_stats/`](iam_stats/): use Python 3 to produce statistics about the IAM Online Handwriting Dataset.
+- [`poj/`](poj/): solve ACM problems on [Peking University Online Judge](http://poj.org/).
 
 ## Commit Timeline
 
