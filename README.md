@@ -15,4 +15,4 @@ Tong has decided to code every day from May to August, 2017. All resources, cove
 
 ## Contact
 
-Visit my [website](http://www.people.virginia.edu/~tq7bw/) to find more about me. Reach me via email at [tonyqiu1019@gmail.com](mailto:tonyqiu1019@gmail.com).
+Contact me via email at [tonyqiu1019@gmail.com](mailto:tonyqiu1019@gmail.com).
