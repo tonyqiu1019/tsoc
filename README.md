@@ -8,8 +8,6 @@ Tong has decided to code every day from May to August, 2017. All resources, cove
 - [`poj/`](poj/): solve ACM problems on [Peking University Online Judge](http://poj.org/).
 - [`acm/`](acm/): solve ACM problems used in previous ICPC programming contests.
 
-**Note**: POJ is currently down for unknown reasons. I'm trying to find alternative sources for ACM problems, but they may be somewhat inconsistent. 
-
 ## Commit Timeline
 
 - May 12th: repository init
