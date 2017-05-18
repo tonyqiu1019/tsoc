@@ -10,10 +10,11 @@ Tong has decided to code every day from May to August, 2017. All resources, cove
 
 ## Commit Timeline
 
-- May 12th: repository init
-- May 13th: IAM Handwriting Dataset Statistics
-- May 14th: complete POJ problem [\#1021](poj/1021.cpp)
-- May 15th: complete ACM world final 2007 Problem A
+- May 13th: repository init
+- May 14th: IAM Handwriting Dataset Statistics
+- May 15th: complete POJ problem [\#1021](poj/1021.cpp)
+- May 16th: complete ACM world final 2007 [Problem A](acm/wf2007/a.cpp)
+- May 18th: complete POJ problem [\#1022](poj/1022.cpp)
 
 ## Contact
 
