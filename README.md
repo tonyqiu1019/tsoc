@@ -16,6 +16,7 @@ Tong has decided to code every day from May to August, 2017. All resources, cove
 - May 16th: complete ACM world final 2007 [Problem A](acm/wf2007/a.cpp)
 - May 18th: complete POJ problem [\#1022](poj/1022.cpp)
 - May 19th: complete POJ problem [\#1023](poj/1023.cpp)
+- May 22nd: complete POJ problem [\#1024](poj/1024.cpp)
 
 ## Contact
 
