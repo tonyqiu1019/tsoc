@@ -7,6 +7,7 @@ Tong has decided to code every day from May to August, 2017. All resources, cove
 - [`iam_stats/`](iam_stats/): use Python 3 to produce statistics about the IAM Online Handwriting Dataset.
 - [`poj/`](poj/): solve ACM problems on [Peking University Online Judge](http://poj.org/).
 - [`acm/`](acm/): solve ACM problems used in previous ICPC programming contests.
+- [`ios/`](ios/): iOS applications/projects based on assignments from Stanford iOS Development Online Course (CS 193p).
 
 ## Commit Timeline
 
@@ -18,7 +19,7 @@ Tong has decided to code every day from May to August, 2017. All resources, cove
 - May 19th: complete POJ problem [\#1023](poj/1023.cpp)
 - May 22nd: complete POJ problem [\#1024](poj/1024.cpp)
 - July 2nd: complete POJ problem [\#1026](poj/1026.cpp)
-- July 15th: complete iOS app [Calculator](ios/Calculator/) from Stanford online course CS 193p
+- July 15th: complete iOS app [Calculator](ios/Calculator/) from Stanford CS 193p
 
 ## Contact
 
