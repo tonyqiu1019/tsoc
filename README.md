@@ -17,6 +17,8 @@ Tong has decided to code every day from May to August, 2017. All resources, cove
 - May 18th: complete POJ problem [\#1022](poj/1022.cpp)
 - May 19th: complete POJ problem [\#1023](poj/1023.cpp)
 - May 22nd: complete POJ problem [\#1024](poj/1024.cpp)
+- July 2nd: complete POJ problem [\#1026](poj/1026.cpp)
+- July 15th: complete iOS app [Calculator](ios/Calculator/) from Stanford online course CS 193p
 
 ## Contact
 
