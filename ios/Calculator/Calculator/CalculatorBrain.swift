@@ -71,7 +71,10 @@ struct CalculatorBrain {
     }
     
     static func formatted(_ value: Double) -> String {
-        return (fabs(Double(Int(value)) - value) < 1e-6) ? String(Int(value)) : String(value)
+        if !value.isInfinite && !value.isNaN && fabs(Double(Int(value)) - value) < 1e-6 {
+            return String(Int(value))
+        }
+        return String(value)
     }
     
     mutating func performOperation(_ symbol: String) {

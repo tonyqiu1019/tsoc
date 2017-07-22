@@ -8,13 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-    
-    private var brain = CalculatorBrain()
+class CalculatorViewController: UIViewController {
     
     private var variables: [String: Double] = [:]
     
-    private func updateAllDisplay() {
+    private func updateUI() {
         let (result, isPending, description) = brain.evaluate(using: variables)
         if result != nil {
             displayValue = result!
@@ -27,6 +25,10 @@ class ViewController: UIViewController {
             memoryLabel.text = "not set"
         }
     }
+    
+    private var brain = CalculatorBrain()
+    
+    private var brainCurrentState: CalculatorBrain?
     
     var isTyping = false
     
@@ -66,12 +68,12 @@ class ViewController: UIViewController {
         if let symbol = sender.currentTitle {
             brain.performOperation(symbol)
         }
-        updateAllDisplay()
+        updateUI()
     }
     
     @IBAction func inputVariable(_ sender: UIButton) {
         brain.setOperand(variable: sender.currentTitle!)
-        updateAllDisplay()
+        updateUI()
     }
     
     @IBAction func setVariable(_ sender: UIButton) {
@@ -80,7 +82,7 @@ class ViewController: UIViewController {
         let variableName = title.substring(from: index)
         variables.updateValue(displayValue, forKey: variableName)
         isTyping = false
-        updateAllDisplay()
+        updateUI()
     }
     
     @IBAction func clearScreen() {
@@ -88,8 +90,6 @@ class ViewController: UIViewController {
         descriptionLabel.text = " "
         isTyping = false
         brain.clear()
-        variables.removeAll()
-        memoryLabel.text = "not set"
     }
     
     @IBAction func undoOperation() {
@@ -101,7 +101,22 @@ class ViewController: UIViewController {
             isTyping = (deleted != "")
         } else {
             brain.undo()
-            updateAllDisplay()
+            updateUI()
+        }
+    }
+    
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        if let result = brain.evaluate().result {
+            return !brain.evaluate().isPending && !result.isNaN && !result.isInfinite
+        }
+        return false
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let graphVC = segue.destination as? GraphViewController {
+            brainCurrentState = brain
+            graphVC.function = { self.brainCurrentState?.evaluate(using: ["M": $0]).result }
+            graphVC.functionLabelText = brainCurrentState?.evaluate().description
         }
     }
     
