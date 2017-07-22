@@ -21,6 +21,8 @@ Tong has decided to code every day from May to August, 2017. All resources, cove
 - July 2nd: complete POJ problem [\#1026](poj/1026.cpp)
 - July 15th: complete iOS app [Calculator](ios/Calculator/) from Stanford CS 193p
 - July 17th: complete project 2 from Stanford CS 193p (same app as [Calculator](ios/Calculator/))
+- July 22nd: complete project 3 from Stanford CS 193p (same app as [Calculator](ios/Calculator/))
+
 ## Contact
 
 Contact me via email at [tonyqiu1019@gmail.com](mailto:tonyqiu1019@gmail.com).
