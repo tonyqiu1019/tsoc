@@ -1,6 +1,6 @@
 # Tong's Summer of Code
 
-Tong has decided to code every day from May to August, 2017. All resources, covering various subjects, will be committed to this repo, and hope you could find some of them useful.
+Tong has decided to code frequently from May to August, 2017. All resources, covering various subjects, will be committed to this repo, and hope you could find some of them useful.
 
 ## Contents
 
