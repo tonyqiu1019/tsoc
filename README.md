@@ -9,7 +9,7 @@ Tong has decided to code frequently from May to August, 2017. All resources, cov
 - [`acm/`](acm/): solve ACM problems used in previous ICPC programming contests.
 - [`ios/`](ios/): iOS applications/projects based on assignments from Stanford iOS Development Online Course (CS 193p).
 
-## Commit Timeline
+## Timeline
 
 - May 13th: repository init
 - May 14th: IAM Handwriting Dataset Statistics
